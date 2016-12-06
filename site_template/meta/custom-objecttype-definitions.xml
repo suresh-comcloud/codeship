@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <custom-type type-id="ADYEN_NOTIFICATIONS">
+        <display-name xml:lang="x-default">ADYEN_NOTIFICATIONS</display-name>
+        <description xml:lang="x-default">Adyen notifications objects</description>
+        <staging-mode>no-staging</staging-mode>
+        <storage-scope>site</storage-scope>
+        <retention-days>14</retention-days>
+        <key-definition attribute-id="notificationID">
+            <display-name xml:lang="x-default">Notification ID</display-name>
+            <type>string</type>
+            <min-length>0</min-length>
+        </key-definition>
+        <attribute-definitions>
+            <attribute-definition attribute-id="notificationData">
+                <display-name xml:lang="x-default">Notification Data</display-name>
+                <description xml:lang="x-default">Adyen Notification Data</description>
+                <type>text</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="processed">
+                <display-name xml:lang="x-default">Processed</display-name>
+                <description xml:lang="x-default">Flag to indicate if the notification was processed</description>
+                <type>boolean</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="timestamp">
+                <display-name xml:lang="x-default">Timestamp</display-name>
+                <description xml:lang="x-default">Timestamp</description>
+                <type>datetime</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+        </attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="ADYEN_NOTIFICATIONS">
+                <display-name xml:lang="x-default">ADYEN_NOTIFICATIONS</display-name>
+                <attribute attribute-id="processed"/>
+                <attribute attribute-id="notificationData"/>
+                <attribute attribute-id="notificationID"/>
+                <attribute attribute-id="timestamp"/>
+            </attribute-group>
+        </group-definitions>
+    </custom-type>
+
+</metadata>

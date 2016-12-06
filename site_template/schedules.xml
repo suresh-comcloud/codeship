@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules xmlns="http://www.demandware.com/xml/impex/schedules/2007-03-31">
+    <schedule schedule-id="ProcessAdyenNotifications">
+        <description>ProcessAdyenNotifications</description>
+        <enabled-flag>true</enabled-flag>
+        <priority>0</priority>
+        <execution-scope>site</execution-scope>
+        <pipeline>
+            <name>Adyen</name>
+            <startnode>ProcessAdyenNotifications</startnode>
+        </pipeline>
+        <sites>
+            <site site-id="Joseph"/>
+        </sites>
+        <run-once>2016-11-26T23:37:00.000Z</run-once>
+        <notification>
+            <enabled-flag>false</enabled-flag>
+            <email-from>noreply@joseph.com</email-from>
+            <email-to>skanthiah@demandware.com</email-to>
+            <threshold>
+                <exception/>
+                <error/>
+                <hang/>
+                <retry/>
+            </threshold>
+            <max-execution-time>60</max-execution-time>
+            <hang-detection-enabled-flag>false</hang-detection-enabled-flag>
+            <failure-rule>continue</failure-rule>
+        </notification>
+    </schedule>
+
+</schedules>

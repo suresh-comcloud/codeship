@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences xmlns="http://www.demandware.com/xml/impex/preferences/2007-03-31">
+    <custom-preferences>
+        <all-instances/>
+        <development>
+            <preference preference-id="Adyen_Debug">true</preference>
+            <preference preference-id="Adyen_HMACkey">SampleHMAC</preference>
+            <preference preference-id="Adyen_Mode">TEST</preference>
+            <preference preference-id="Adyen_PaymentSelection">one</preference>
+            <preference preference-id="Adyen_allowedMethods">mc,visa,amex,maestrouk,solo,ideal,elv,paypal,sepadirectdebit,bankTransfer_IBAN</preference>
+            <preference preference-id="Adyen_directoryLookup">false</preference>
+            <preference preference-id="Adyen_merchantCode">JosephFashionLtdCOM</preference>
+            <preference preference-id="Adyen_skinCode">EhYCKQEZ</preference>
+            <preference preference-id="adyen_notification_password">adyen$</preference>
+            <preference preference-id="adyen_notification_user">AdyenUser</preference>
+            <preference preference-id="disableResponsiveDesign">false</preference>
+            <preference preference-id="enableInfiniteScroll">false</preference>
+            <preference preference-id="enableMultiShipping">false</preference>
+            <preference preference-id="enableStorePickUp">false</preference>
+        </development>
+        <staging>
+            <preference preference-id="disableResponsiveDesign">false</preference>
+            <preference preference-id="slideshoweffect">growX</preference>
+        </staging>
+        <production/>
+    </custom-preferences>
+</preferences>
+

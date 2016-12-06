@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment-settings xmlns="http://www.demandware.com/xml/impex/paymentsettings/2009-09-15">
+
+    <payment-method method-id="GIFT_CERTIFICATE">
+        <name xml:lang="x-default">Gift Certificate</name>
+        <name xml:lang="fr-FR">Chèque-cadeau</name>
+        <name xml:lang="it-IT">Certificato regalo</name>
+        <name xml:lang="ja-JP">ギフト券</name>
+        <name xml:lang="zh-CN">礼券</name>
+        <enabled-flag>true</enabled-flag>
+        <processor-id>BASIC_GIFT_CERTIFICATE</processor-id>
+    </payment-method>
+
+    <payment-method method-id="PayPal">
+        <name xml:lang="x-default">Pay Pal</name>
+        <name xml:lang="fr-FR">Pay Pal</name>
+        <name xml:lang="it-IT">PayPal</name>
+        <name xml:lang="ja-JP">PayPal</name>
+        <name xml:lang="zh-CN">PayPal</name>
+        <enabled-flag>true</enabled-flag>
+        <processor-id>PAYPAL_EXPRESS</processor-id>
+    </payment-method>
+
+    <payment-method method-id="Adyen">
+        <name xml:lang="x-default">Adyen</name>
+        <description xml:lang="x-default">Adyen Redirect</description>
+        <image>adyen.png</image>
+        <enabled-flag>true</enabled-flag>
+        <processor-id>Adyen</processor-id>
+    </payment-method>
+
+</payment-settings>

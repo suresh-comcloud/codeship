@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <folder folder-id="root">
+        <online-flag>true</online-flag>
+        <page-attributes/>
+    </folder>
+
+    <content content-id="customer-care">
+        <display-name xml:lang="x-default">customer-care</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h1&gt;customer-care title&lt;/h1&gt;&#13;
+&lt;p&gt;customer-care content&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="delivery-returns">
+        <display-name xml:lang="x-default">delivery-returns</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h1&gt;delivery-returns&lt;/h1&gt;&#13;
+&lt;p&gt;delivery-returns&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="footer">
+        <display-name xml:lang="x-default">footer</display-name>
+        <description xml:lang="x-default">Non-transactional footer</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="footer-copyright"&gt;© Joseph 2016&lt;/div&gt;&#13;
+&#13;
+&lt;ul class="footer-static-links"&gt;&#13;
+&lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'customer-care')$"&gt;Customer Care&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'information')$"&gt;Information&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'delivery-returns')$"&gt;Delivery &amp; returns&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;ul class="footer-social-links"&gt;&#13;
+&lt;li&gt;&lt;a class="footer-newsletter-toggle" href="#"&gt;Newsletter signup&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a class="footer-follow-toggle" href="#"&gt;Follow us&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;/ul&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="footer-checkout">
+        <display-name xml:lang="x-default">footer-checkout</display-name>
+        <description xml:lang="x-default">transactional footer</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="footer-copyright"&gt;© Joseph 2016&lt;/div&gt;&#13;
+&lt;a class="footer-contact" href="$httpsUrl('CustomerService-ContactUs')$"&gt;Contact&lt;/a&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="footer-follow-us">
+        <display-name xml:lang="x-default">footer-follow-us</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="footer-follow-us-title"&gt;Follow us&lt;/div&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;&lt;a href="https://www.facebook.com/josephfashion" target="_blank"&gt;Facebook&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="https://twitter.com/JOSEPH_FASHION" target="_blank"&gt;Twitter @Joseph&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="http://uk.pinterest.com/josephfashion/" target="_blank"&gt;Pinterest&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="" target="_blank"&gt;VK&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="https://instagram.com/josephfashion" target="_blank"&gt;Instagram&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="https://plus.google.com/115300462288609359973/posts" target="_blank"&gt;Google+&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="" target="_blank"&gt;Youtube&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="" target="_blank"&gt;Tencent&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;a href="" target="_blank"&gt;Weibo&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;/ul&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="footer-newsletter-popup-intro-text">
+        <display-name xml:lang="x-default">footer-newsletter-popup-intro-text</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;Please enter your details to subscribe to Joseph newsletters &#13;
+and be the first to get special offers.&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="information">
+        <display-name xml:lang="x-default">information</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h1&gt;information&lt;/h1&gt;&#13;
+&lt;p&gt;information content asset&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+</library>
